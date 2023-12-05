@@ -1,9 +1,10 @@
 :root {
-  brand-color: var(-- #4d5ae5);
-  text-font-family: "Raleway" sans-serif;
-  header-front-family: "Roboto" sans-serif;
+  --brand-color: var(--#404BBF);
+  --text-font-family: "Raleway" sans-serif;
+  --header-front-family: "Roboto" sans-serif;
 }
 
+/* Global style */
 .body {
   front-family: var --(text-font-family);
 }
@@ -16,18 +17,30 @@ ul {
   list-style-type: none;
 }
 
-.nav-webstudio {
+/* Classes */
+
+.logo {
+  color: blue;
+  color: dark;
+}
+
+.nav-webstudio:hover,
+.nav-webstudio:focus {
   color: black;
 }
 
 .index-link {
   color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
-.index-link-hover,
+.index-link:hover,
 .index-link:focus {
-  color: black;
-  color=: var(--#4d5ae5);
+  color: #4d5ae5;
 }
 
 .title-all {
@@ -40,9 +53,10 @@ ul {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.button {
-  color: white;
-  background-color: var(--IRIS, #4d5ae5);
+.button-html:hover,
+.button-html:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .subtitle {
@@ -77,4 +91,18 @@ ul {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+}
+
+.button-portofolio {
+  color: #404bbf;
+  border-radius: 4px;
+  border: var(--CORNFLOWER, #e7e9fc);
+  background: var(--CLOUD, #f4f4fd);
+  cursor: pointer;
+}
+
+.button-portofolio:hover,
+.button-portofolio:focus {
+  color: white;
+  background-color: blue;
 }
