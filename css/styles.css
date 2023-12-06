@@ -11,7 +11,9 @@
 
 /* Global style */
 body {
-  front-family: var --(text-font-family);
+  front-family: var --("Roboto" sans-serif);
+  background-color: var(#ffffff);
+  color: var(#434455);
 }
 
 a {
@@ -50,7 +52,7 @@ ul {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
-  text-decoration: none;
+  list-style: none;
 }
 
 .index-nav:hover,
