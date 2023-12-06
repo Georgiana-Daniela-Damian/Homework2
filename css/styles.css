@@ -87,12 +87,20 @@ ul {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button-html:hover,
 .button-html:focus {
   color: var(--white-color);
   background-color: var(--brand-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
 }
 
 .subtitle {
@@ -126,6 +134,10 @@ ul {
   border: #e7e9fc;
   background: #f4f4fd;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
 .button-portofolio:hover,
