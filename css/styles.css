@@ -11,7 +11,6 @@
 
 /* Global style */
 body {
-  front-family: var --("Roboto" sans-serif);
   background-color: var(#ffffff);
   color: var(#434455);
 }
@@ -112,8 +111,8 @@ ul {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
 }
 
 .title-images {
