@@ -112,6 +112,10 @@ ul {
   background-color: var(--brand-color);
 }
 
+.list {
+  list-style: none;
+}
+
 .title-second {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
@@ -120,7 +124,9 @@ ul {
   line-height: 1.2px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
 }
+
 .subtitle {
   color: var(--navy-blue-color);
 }
