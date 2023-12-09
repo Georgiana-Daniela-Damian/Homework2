@@ -11,9 +11,9 @@
 
 /* Global style */
 body {
-  --font-family: "Roboto", sans-serif;
-  color: var(#434455);
-  background-color: var(#ffffffff);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffffff;
 }
 
 a {
