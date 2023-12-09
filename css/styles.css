@@ -25,6 +25,10 @@ ul {
 
 /* Classes */
 
+.font-fundal {
+  color: #434455;
+}
+
 .logo-link {
   color: var(--brand-color);
   font-family: Raleway;
