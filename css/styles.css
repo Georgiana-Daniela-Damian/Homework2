@@ -4,9 +4,10 @@
   --white-color: #ffffff;
   --slate-color: #434455;
   --cloud-color: #f4f4fd;
+  --cornflow: #e7e9fc;
 
-  --text-font-family: "Raleway", sans-serif;
-  --header-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
 }
 
 /* Global style */
@@ -24,31 +25,24 @@ ul {
   list-style-type: none;
 }
 
-/* Classes */
+/* Logo */
 
 .logo-link {
   color: var(--brand-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.03em;
-  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo-link-second {
   color: var(--navy-blue-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
 }
+
+/* Contacts */
 
 .list {
   list-style: none;
@@ -58,9 +52,9 @@ ul {
   color: var(--navy-blue-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-  list-style: none;
+  line-height: 1, 5;
+  letter-spacing: 0, 02em;
+  text-decoration: none;
 }
 
 .index-nav:hover,
@@ -68,13 +62,20 @@ ul {
   color: #404bbf;
 }
 
+/* Address */
+
+.address {
+  font-size: normal;
+  list-style-type: none;
+}
+
 .index-address {
   color: var(--slate-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -83,6 +84,8 @@ ul {
   color: var(--brand-color);
 }
 
+/* Title */
+
 .title-all {
   color: var(--white-color);
   background-color: var(--navy-blue-color);
@@ -90,7 +93,7 @@ ul {
 
 .title {
   color: var(--white-color);
-  background-color: var(--#2e2f42);
+  background-color: var(--navy-blue-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -98,6 +101,8 @@ ul {
   text-align: center;
   text-transform: capitalize;
 }
+
+/* Button-page-1 */
 
 .button-html {
   color: var(--white-color);
@@ -112,51 +117,7 @@ ul {
   background-color: var(--brand-color);
 }
 
-.list {
-  list-style: none;
-}
-
-.title-second {
-  color: var(--#2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.12px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.subtitle {
-  color: var(--navy-blue-color);
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.11px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.paragraf {
-  color: var(--#434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1, 5;
-  letter-spacing: 0.02em;
-}
-
-.title-images {
-  color: var(--navy-blue-color);
-}
-
-.title-our-team {
-  color: var(--navy-blue-color);
-}
-
-.team-name {
-  color: var(--navy-blue-color);
-}
+/* Button-portofolio */
 
 .button-portofolio {
   font-family: Roboto;
@@ -176,6 +137,74 @@ ul {
   color: var(--white-color);
   background-color: #404bbf;
 }
+
+/* Description-page-1 */
+
+.list {
+  list-style: none;
+}
+
+.subtitle-list {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Description-portofolio */
+
+.title-second {
+  color: var(--#2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.12px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.paragraf {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+
+/* Images-page-1 */
+
+.title-images {
+  color: var(--navy-blue-color);
+  font-size: 36px;
+  line-height: 1.11px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team {
+  color: #ffffff;
+}
+
+.our-team {
+  background: #f4f4fd;
+}
+
+.photo {
+  background: #ffffff;
+}
+
+.title-our-team {
+  color: var(--navy-blue-color);
+}
+
+.team-name {
+  color: var(--navy-blue-color);
+}
+/* Footer */
 
 .logo-web-footer {
   color: var(--brand-color);
@@ -199,12 +228,10 @@ ul {
 }
 
 .paragraf-footer {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1, 5px;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .paragraf-footer {
