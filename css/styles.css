@@ -96,7 +96,7 @@ ul {
   background-color: var(--navy-blue-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.2px;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -170,7 +170,7 @@ ul {
   color: var(--slate-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -179,7 +179,7 @@ ul {
 .title-images {
   color: var(--navy-blue-color);
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
