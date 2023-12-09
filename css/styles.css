@@ -64,7 +64,7 @@ ul {
 
 .index-nav:hover,
 .index-nav:focus {
-  color: var(--brand-color);
+  color: #404bbf;
 }
 
 .index-address {
