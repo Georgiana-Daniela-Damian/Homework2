@@ -5,13 +5,13 @@
   --slate-color: #434455;
   --cloud-color: #f4f4fd;
 
-  --text-front-family: "Raleway" sans-serif;
-  --header-front-family: "Roboto" sans-serif;
+  --text-font-family: "Raleway", sans-serif;
+  --header-front-family: "Roboto", sans-serif;
 }
 
 /* Global style */
 body {
-  --font-family: "Roboto" sans-serif;
+  --font-family: "Roboto", sans-serif;
   color: var(#434455);
   background-color: var(#ffffffff);
 }
