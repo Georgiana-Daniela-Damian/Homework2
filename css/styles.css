@@ -11,6 +11,8 @@
 
 /* Global style */
 body {
+  --text-font-family: "Raleway" sans-serif;
+  --header-front-family: "Roboto" sans-serif;
   background-color: var(#ffffff);
   color: var(#434455);
 }
@@ -164,6 +166,7 @@ ul {
 
 .logo-web-footer {
   color: var(--brand-color);
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17px;
@@ -174,7 +177,7 @@ ul {
 
 .logo-studio-footer {
   color: var(--cloud-color);
-
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17px;
@@ -183,13 +186,16 @@ ul {
 }
 
 .paragraf-footer {
-  color: var(--cloud-color);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1, 5px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+.paragraf-footer {
+  color: var(--cloud-color);
 }
 
 .fundal-footer {
