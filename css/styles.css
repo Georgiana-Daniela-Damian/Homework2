@@ -89,17 +89,17 @@ ul {
   text-align: center;
 }
 
-.button-html:hover,
-.button-html:focus {
+.button-html {
   color: var(--white-color);
-  background-color: var(--brand-color);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  text-align: left;
-  cursor: pointer;
+  text-align: center;
+}
+
+.button-html-brand {
+  background-color: var(--brand-color);
 }
 
 .title-second {
