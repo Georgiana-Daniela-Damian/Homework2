@@ -182,10 +182,11 @@ ul {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.5px;
+  line-height: 1.7px;
   letter-spacing: 0.03em;
   text-align: left;
-  text-transform: none;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo-studio-footer {
@@ -193,9 +194,10 @@ ul {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.5px;
+  line-height: 1.7px;
   letter-spacing: 0.03em;
-  text-transform: none;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .paragraf-footer {
