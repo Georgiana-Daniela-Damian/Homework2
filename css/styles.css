@@ -96,7 +96,7 @@ ul {
   background-color: var(--navy-blue-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -148,7 +148,7 @@ ul {
   color: var(--navy-blue-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -160,7 +160,7 @@ ul {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.12px;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
