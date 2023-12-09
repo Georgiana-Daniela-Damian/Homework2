@@ -30,9 +30,11 @@ ul {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo-link-second {
@@ -40,9 +42,15 @@ ul {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .index-nav {
