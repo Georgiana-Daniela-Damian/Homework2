@@ -11,8 +11,6 @@
 
 /* Global style */
 body {
-  --text-font-family: "Raleway" sans-serif;
-  --header-front-family: "Roboto" sans-serif;
   background-color: var(#ffffff);
   color: var(#434455);
 }
@@ -92,11 +90,12 @@ ul {
 .title {
   color: var(--white-color);
   background-color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.11px;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .button-html {
@@ -119,16 +118,23 @@ ul {
 .title-second {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.11px;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .subtitle {
   color: var(--navy-blue-color);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .paragraf {
