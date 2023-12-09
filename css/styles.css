@@ -179,7 +179,6 @@ ul {
 
 .logo-web-footer {
   color: var(--brand-color);
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.7px;
@@ -191,7 +190,6 @@ ul {
 
 .logo-studio-footer {
   color: var(--cloud-color);
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.7px;
