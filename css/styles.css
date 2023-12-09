@@ -11,6 +11,7 @@
 
 /* Global style */
 body {
+  --front-family: "Roboto" sans-serif;
   background-color: var(#ffffffff);
   color: var(#434455);
 }
@@ -24,12 +25,6 @@ ul {
 }
 
 /* Classes */
-
-.font-fundal {
-  color: #434455;
-  front-family: "Roboto" sans-serif;
-  background-color: #ffffffff;
-}
 
 .logo-link {
   color: var(--brand-color);
