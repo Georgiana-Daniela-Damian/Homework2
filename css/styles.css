@@ -181,7 +181,7 @@ ul {
   color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.7px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
@@ -192,7 +192,7 @@ ul {
   color: var(--cloud-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.7px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
