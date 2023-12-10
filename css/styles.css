@@ -62,7 +62,10 @@ ul {
   text-decoration: none;
 }
 
-.index-nav:hover,
+.index-nav:hover {
+  color: #404bbf;
+}
+
 .index-nav:focus {
   color: #404bbf;
 }
