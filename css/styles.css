@@ -124,14 +124,14 @@ ul {
 /* Button-portofolio */
 
 .button-portofolio {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: var(--brand-color);
   border-radius: 4px;
   border: #e7e9fc;
   background: #f4f4fd;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
