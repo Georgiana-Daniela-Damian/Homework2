@@ -100,7 +100,7 @@ ul {
   background-color: var(--navy-blue-color);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -113,9 +113,10 @@ ul {
   color: var(--white-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
+  cursor: pointer;
 }
 
 .button-html-brand {
@@ -188,6 +189,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+
+.title-images {
+  background-color: #ffffffff;
 }
 
 .team {
