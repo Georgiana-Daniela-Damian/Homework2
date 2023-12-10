@@ -206,18 +206,6 @@ ul {
 }
 /* Footer */
 
-.logo-web-footer {
-  color: var(--brand-color);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .logo-studio-footer {
   color: var(--cloud-color);
   font-weight: 800;
@@ -226,14 +214,8 @@ ul {
 }
 
 .paragraf-footer {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.55;
-  letter-spacing: 0.02em;
-}
-
-.paragraf-footer {
   color: var(--cloud-color);
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
