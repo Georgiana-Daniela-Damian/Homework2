@@ -5,6 +5,7 @@
   --slate-color: #434455;
   --cloud-color: #f4f4fd;
   --cornflow: #e7e9fc;
+  --ocean: #404bbf;
 
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
@@ -119,8 +120,9 @@ ul {
   cursor: pointer;
 }
 
-.button-html-brand {
-  background-color: var(--brand-color);
+.button-html-brand :hover,
+.button-html-brand:focus {
+  background-color: var(--ocean);
 }
 
 /* Button-portofolio */
