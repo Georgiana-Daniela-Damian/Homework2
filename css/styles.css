@@ -73,7 +73,7 @@ ul {
   color: var(--slate-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: uppercase;
@@ -108,7 +108,7 @@ ul {
   color: var(--white-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 24;
   letter-spacing: 0.04em;
   text-align: center;
 }
@@ -127,7 +127,7 @@ ul {
   background: #f4f4fd;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 24;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -210,7 +210,7 @@ ul {
   color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
@@ -219,23 +219,22 @@ ul {
 
 .logo-studio-footer {
   color: var(--cloud-color);
-  font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 02em;
 }
 
 .paragraf-footer {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5px;
+  line-height: 1.55;
   letter-spacing: 0.02em;
 }
 
 .paragraf-footer {
   color: var(--cloud-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .fundal-footer {
