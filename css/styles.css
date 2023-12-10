@@ -124,8 +124,13 @@ ul {
   cursor: pointer;
 }
 
-.button-html-brand :hover,
+.button-html-brand :hover {
+  color: var(--white-color);
+  background-color: #404bbf;
+}
+
 .button-html-brand:focus {
+  color: var(--white-color);
   background-color: #404bbf;
 }
 
