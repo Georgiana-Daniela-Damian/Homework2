@@ -75,8 +75,7 @@ ul {
 /* Address */
 
 .address {
-  font-size: normal;
-  list-style-type: none;
+  font-style: normal;
 }
 
 .link-address {
