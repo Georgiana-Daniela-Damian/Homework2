@@ -209,7 +209,7 @@ ul {
 }
 
 .our-team {
-  background: #ffffffff;
+  background: var(--cloud-color);
 }
 
 .photo {
