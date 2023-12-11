@@ -54,7 +54,7 @@ ul {
   text-decoration: none;
 }
 
-.nav-link {
+.list-link {
   color: var(--navy-blue-color);
   font-size: 16px;
   font-weight: 500;
@@ -78,7 +78,7 @@ ul {
   list-style-type: none;
 }
 
-.index-address {
+.link-address {
   color: var(--slate-color);
   font-size: normal;
   font-weight: 400;
