@@ -54,7 +54,7 @@ ul {
   text-decoration: none;
 }
 
-.index-nav {
+.nav-link {
   color: var(--navy-blue-color);
   font-size: 16px;
   font-weight: 500;
