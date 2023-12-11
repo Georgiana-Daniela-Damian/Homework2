@@ -47,6 +47,7 @@ ul {
 
 .list {
   list-style: none;
+  font-size: normal;
 }
 
 .link {
