@@ -227,7 +227,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-color);
-  background-color: #ffffffff;
 }
 
 .team-name {
