@@ -41,6 +41,7 @@ ul {
 
 .logo-link-second {
   color: var(--navy-blue-color);
+  text-decoration: none;
 }
 
 /* Contacts */
