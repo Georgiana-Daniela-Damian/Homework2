@@ -63,11 +63,11 @@ ul {
   text-decoration: none;
 }
 
-.index-nav:hover {
+.list-link:hover {
   color: #404bbf;
 }
 
-.index-nav:focus {
+.list-link:focus {
   color: #404bbf;
 }
 
