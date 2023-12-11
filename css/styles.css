@@ -88,8 +88,8 @@ ul {
   text-transform: uppercase;
 }
 
-.index-address:hover,
-.index-address:focus {
+.link-address:hover,
+.link-address:focus {
   color: var(--brand-color);
 }
 
