@@ -87,7 +87,7 @@ ul {
 
 .link-address:hover,
 .link-address:focus {
-  color: var(--brand-color);
+  color: #404bbf;
 }
 
 /* Title */
