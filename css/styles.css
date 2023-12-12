@@ -92,7 +92,6 @@ ul {
 /* Title */
 
 .title-all {
-  color: var(--white-color);
   background-color: var(--navy-blue-color);
 }
 
@@ -104,7 +103,6 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
 }
 
 /* Button-page-1 */
