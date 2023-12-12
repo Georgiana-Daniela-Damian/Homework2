@@ -108,7 +108,7 @@ ul {
 /* Button-page-1 */
 
 .button-html {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--white-color);
   background-color: #4d5ae5;
   font-size: 16px;
@@ -119,11 +119,7 @@ ul {
   cursor: pointer;
 }
 
-.button-html-brand:hover {
-  color: var(--white-color);
-  background-color: #404bbf;
-}
-
+.button-html-brand:hover,
 .button-html-brand:focus {
   color: var(--white-color);
   background-color: #404bbf;
@@ -132,7 +128,7 @@ ul {
 /* Button-portofolio */
 
 .button-portofolio {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--brand-color);
   border-radius: 4px;
   border: #e7e9fc;
@@ -169,7 +165,7 @@ ul {
 
 .title-second {
   color: var(--navy-blue-color);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -242,7 +238,7 @@ ul {
 .logo-link-footer {
   color: var(--cloud-color);
 
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 02em;
