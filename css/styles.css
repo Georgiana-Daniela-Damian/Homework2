@@ -213,7 +213,7 @@ ul {
 }
 
 .photo {
-  background-color: #ffffffff;
+  background-color: #fff;
 }
 
 .title-our-team {
@@ -231,7 +231,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
-  background-color: #ffffffff;
+  background-color: #fff;
 }
 
 .paragraf {
